@@ -1,0 +1,25 @@
+# Sistema / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variables locales
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Backend Java / Maven
+gestor-chef-backend/target/
+gestor-chef-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend Node/Vite
+gestor-chef-frontend/node_modules/
+gestor-chef-frontend/dist/
+
+# Docker local
+.docker/
