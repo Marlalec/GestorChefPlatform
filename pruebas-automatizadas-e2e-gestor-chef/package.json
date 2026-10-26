@@ -1,0 +1,14 @@
+{
+  "name": "gestor-chef-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:list": "playwright test --list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
