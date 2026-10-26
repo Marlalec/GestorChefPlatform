@@ -23,3 +23,8 @@ gestor-chef-frontend/dist/
 
 # Docker local
 .docker/
+
+# Pruebas E2E Playwright
+pruebas-automatizadas-e2e-gestor-chef/node_modules/
+pruebas-automatizadas-e2e-gestor-chef/playwright-report/
+pruebas-automatizadas-e2e-gestor-chef/test-results/
